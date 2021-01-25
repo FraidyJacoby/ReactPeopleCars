@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactPeopleCars.Web", "ReactPeopleCars.Web\ReactPeopleCars.Web.csproj", "{8CCC656F-21AC-4CC2-BFAB-B739183FCDFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactPeopleCars.Data", "ReactPeopleCars.Data\ReactPeopleCars.Data.csproj", "{F8A16DBE-C7CA-4FDB-BD34-636E26CBEF1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CCC656F-21AC-4CC2-BFAB-B739183FCDFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CCC656F-21AC-4CC2-BFAB-B739183FCDFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CCC656F-21AC-4CC2-BFAB-B739183FCDFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CCC656F-21AC-4CC2-BFAB-B739183FCDFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8A16DBE-C7CA-4FDB-BD34-636E26CBEF1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8A16DBE-C7CA-4FDB-BD34-636E26CBEF1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8A16DBE-C7CA-4FDB-BD34-636E26CBEF1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8A16DBE-C7CA-4FDB-BD34-636E26CBEF1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {356FCEFF-48C5-4A92-9B0B-3BA8BBA6930C}
+	EndGlobalSection
+EndGlobal
