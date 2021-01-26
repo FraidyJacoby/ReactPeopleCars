@@ -20,7 +20,7 @@ class PeopleTable extends React.Component {
 
     onSearchChange = e => {
         const text = e.target.value;
-        const people = this.state.people.filter(p => p.firstName.toLowerCase().includes(text.toLowerCase()) || p.lastName.toLowerCase().includes(text.toLowerCase()));
+        const people = this.state.people.filter(p => `${p.firstName.toLowerCase()} ${p.lastName.toLowerCase()}`.includes(text.toLowerCase()));
         this.setState({ people, searchText: text });
     }
 
