@@ -1,7 +1,7 @@
 ﻿import React from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
-import PersonRow from './PersonRow';
+import PersonRow from '../components/PersonRow';
 
 class PeopleTable extends React.Component {
     state = {

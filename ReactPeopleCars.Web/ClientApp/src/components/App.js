@@ -1,9 +1,9 @@
 ﻿import React from 'react';
 import { Route } from 'react-router';
-import PeopleTable from './PeopleTable';
-import AddPersonForm from './AddPersonForm';
-import AddCarForm from './AddCarForm';
-import DeleteCars from './DeleteCars';
+import PeopleTable from '../pages/PeopleTable';
+import AddPersonForm from '../pages/AddPersonForm';
+import AddCarForm from '../pages/AddCarForm';
+import DeleteCars from '../pages/DeleteCars';
 
 const App = () => {
     return (

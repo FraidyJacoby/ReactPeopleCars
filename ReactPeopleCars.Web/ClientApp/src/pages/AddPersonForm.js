@@ -8,7 +8,7 @@ class AddPersonForm extends React.Component {
         person: {
             firstName: '',
             lastName: '',
-            age:''
+            age: ''
         }
     }
 
